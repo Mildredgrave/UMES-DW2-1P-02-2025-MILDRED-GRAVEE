@@ -1,11 +1,11 @@
 import { Router } from 'express';
 import { 
-    createMochilaHandler,
+    postMochilaHandler,
   getMochilasHandler
 } from '../controllers/mochilas.controller.js';
 
 const router = Router();
 router.get('/', getMochilasHandler);
-router.post('/',createMochilaHandler)
+router.post('/',postMochilaHandler)
 
 export default router;

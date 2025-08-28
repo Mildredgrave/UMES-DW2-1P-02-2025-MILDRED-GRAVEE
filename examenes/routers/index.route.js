@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import clientsRoute from './mochilas.route.js';
+import mochilasRoute from './mochilas.route.js';
 
 const router = Router();
 
-router.use("/mochilas", clientsRoute);
+router.use("/mochilas", mochilasRoute);
 
 export default router;
